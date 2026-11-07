@@ -1,0 +1,61 @@
+{
+  "raw_stats": {
+    "file_path": "/Users/anujshembekar/Library/Mobile Documents/com~apple~CloudDocs/Documents/Anuj/SEVENTH/NLP/LAB_PROJECT/data/cyberbullying_tweets.csv",
+    "total_records": 47692,
+    "total_columns": 2,
+    "columns": [
+      "tweet_text",
+      "cyberbullying_type"
+    ],
+    "dtypes": {
+      "tweet_text": "object",
+      "cyberbullying_type": "object"
+    },
+    "missing_values": {
+      "tweet_text": 0,
+      "cyberbullying_type": 0
+    },
+    "exact_duplicates": 36,
+    "duplicate_text_only": 1675,
+    "original_class_counts": {
+      "religion": 7998,
+      "age": 7992,
+      "gender": 7973,
+      "ethnicity": 7961,
+      "not_cyberbullying": 7945,
+      "other_cyberbullying": 7823
+    }
+  },
+  "cleaning_summary": {
+    "initial_records": 47692,
+    "empty_records_removed": 0,
+    "unexpected_classes_removed": 0,
+    "exact_duplicates_removed": 36,
+    "conflicting_duplicates_removed": 3278,
+    "total_records_removed": 3314,
+    "final_records_retained": 44378
+  },
+  "original_class_distribution": {
+    "age": 7992,
+    "religion": 7991,
+    "ethnicity": 7952,
+    "gender": 7772,
+    "not_cyberbullying": 6428,
+    "other_cyberbullying": 6243
+  },
+  "binary_target_distribution": {
+    "1": 37950,
+    "0": 6428
+  },
+  "binary_target_proportions": {
+    "Cyberbullying-related": 0.8552,
+    "Non-cyberbullying": 0.1448
+  },
+  "text_length_summary": {
+    "char_length_mean": 140.09,
+    "char_length_median": 127.0,
+    "char_length_std": 86.48,
+    "word_count_mean": 24.44,
+    "word_count_median": 21.0
+  }
+}

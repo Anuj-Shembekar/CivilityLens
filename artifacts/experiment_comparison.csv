@@ -1,0 +1,10 @@
+Experiment ID,Model,Vectorizer,Preprocessing,Val Accuracy,Val Precision,Val Recall,Val F1-Score,Val Macro F1,Training Time (s)
+EXP-1A,Multinomial Naive Bayes,"TF-IDF (1,2)",Conservative Baseline,0.8807,0.8823,0.993,0.9344,0.6402,2.4
+EXP-1B,Logistic Regression,"TF-IDF (1,2)",Conservative Baseline,0.8951,0.9028,0.9833,0.9413,0.7249,2.54
+EXP-1C,Linear SVM,"TF-IDF (1,2)",Conservative Baseline,0.9,0.9224,0.9642,0.9428,0.772,2.55
+EXP-2A,Multinomial Naive Bayes,"Bag of Words (1,2)",Conservative Baseline,0.8556,0.9341,0.8943,0.9138,0.7356,2.36
+EXP-2B,Logistic Regression,"Bag of Words (1,2)",Conservative Baseline,0.9004,0.9231,0.9638,0.943,0.7738,3.07
+EXP-2C,Linear SVM,"Bag of Words (1,2)",Conservative Baseline,0.8771,0.9252,0.9317,0.9284,0.7476,3.35
+EXP-3,Logistic Regression,TF-IDF (Unigram only),Conservative Baseline,0.8976,0.9083,0.9791,0.9423,0.7414,1.24
+EXP-4,Logistic Regression,"TF-IDF (1,2) + Stopwords",Custom Stopword Removal,0.8936,0.9046,0.9789,0.9403,0.7277,3.54
+EXP-5,Logistic Regression,"TF-IDF Char N-grams (3,5)",Character-level N-grams,0.9028,0.9172,0.9744,0.9449,0.7668,7.78

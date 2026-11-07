@@ -1,0 +1,406 @@
+{
+  "false_positives": [
+    {
+      "text": "I am grumpy over having to argue about if CNAMEs are allowed to have underscores. It's in the freaking RFC. \ud83d\ude24",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@discerningmumin They just gained that control and they will not have it long.",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "I wish school was as easy as half the girls in it. :D",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@Strubbestition yeah I fucking thought so.",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "RT @FunSizedFazio: The worst part of living in lorain isn't the crime or the pot holes or anything like that. It's knowing my mayor is a Ch\u00e2\u0080\u00a6",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@comedium @FactsOfSchool @comedium @FactsOfSchool i already did that..but see ^_^",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@Langdoggydog Yeah how is a game where a woman fights by becoming progressively naked sexist! OUTRAGE!",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@AmareshMisraFC @NafeezAhmed @UK_CAGE @ahsan_jehangir Stupid article devoid of facts or reason.",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@mateosstory Thanks! I think he deserves most of the credit. He did fear bullies, but found his school has anti bully culture from top down.",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@jmeade82 women are never tired!",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "Push your cock inside me,i am a bad police,punish me https://t.co/VM5hiyM5cJ",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "RT @jbradfield: @wadhwa @freebsdgirl Personal agendas like \"wanting to work in tech without having their lives and livelihoods threatened e\u2026",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "RT @PatrickLenton: @PatrickLenton while bandits and dragons still attack my dog while i'm bloody mining ore and building a goddamn solarium\u00e2\u0080\u00a6",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@DefenseUnits YPG/YPJ have been so successful lately that I'm concerned they may get a little careless.  Be careful and good luck.",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "I have news 4 Congressional Black Caucus! Your days of bullying White jellyfish is near-end w/ TEA Party on scene! @OriginalCBC #tcot#sot",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@KaelaJael http://t.co/BXygHtfPk6",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "Its better to be unhappy alone rather than being unhappy with someone. Rite?",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "@Jess_ymas @benleasor we'll see on friday how much you bully him! hahah",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "Fuck me sideways. Drasko's attempts at communication are utterly painful to behold. #mkr",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    },
+    {
+      "text": "I sell a million back in 06",
+      "original_category": "not_cyberbullying",
+      "true_label": 0,
+      "true_name": "Non-cyberbullying",
+      "pred_label": 1,
+      "pred_name": "Cyberbullying-related",
+      "error_type": "False Positive",
+      "explanation": "Harmless text incorrectly flagged as cyberbullying. Often caused by innocuous mention of sensitive terms, strong vocabulary without malicious intent, or reclaimed slang."
+    }
+  ],
+  "false_negatives": [
+    {
+      "text": "@Whidmark hahahaha. average 1 bedroom prices in SF are ~ $3k.",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "For a selection of perfection, #superiorfruit !! #graceville #brisbane #foodie #mkr #goodfoodie\u2026 https://t.co/lFUTzymhMH",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@Lesbiologist \ud83d\udc4d\ud83d\udc4d\ud83d\udc6f\ud83d\ude18",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "Kat is an awful human being! #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "When her hands get sore, she finds another way to get the job done... #MKR",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "#saynotocyberbullying ha!",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@iammanbeard pics in a week.",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@bryneaux \ud83d\ude0a",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "Celine isn't funny stop it #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@mleasure7 @leasure33 hey asshole! watch yourself! lol",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "RT @syazlicious: The truth behind another elimination round...to get rid of #cuntandandre #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "There is no misogyny in video games there is no misogyny in video games there is no misogyny in video games there is http://t.co/M6Wbu7I5U3",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@kunikos yeah",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "If Kat and Andre are strategically scoring, they need to be kicked off #mkr2015 #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@itsjourdan13 youre soooo lame(:",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@CatsandCatts I never would've guessed",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@tinkertim I don't get it",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "Kat stop smiling you fool...they could get 10, they won't but be humble #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "@srhbutts @ChrisWarcraft LOL",
+      "original_category": "other_cyberbullying",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    },
+    {
+      "text": "Over the duck lips #mkr",
+      "original_category": "gender",
+      "true_label": 1,
+      "true_name": "Cyberbullying-related",
+      "pred_label": 0,
+      "pred_name": "Non-cyberbullying",
+      "error_type": "False Negative",
+      "explanation": "Cyberbullying missed by the model. Often caused by implicit harassment, sarcasm, subtle mocking, lack of explicit slurs, or obfuscated spelling."
+    }
+  ]
+}

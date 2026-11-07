@@ -1,0 +1,211 @@
+{
+  "best_model_id": "EXP-5",
+  "best_model_name": "Logistic Regression",
+  "best_vectorizer": "TF-IDF Char N-grams (3,5)",
+  "preprocessing": "Character-level N-grams",
+  "validation_metrics": {
+    "accuracy": 0.9028,
+    "precision": 0.9172,
+    "recall": 0.9744,
+    "f1_score": 0.9449,
+    "macro_precision": 0.8387,
+    "macro_recall": 0.7273,
+    "macro_f1": 0.7668,
+    "confusion_matrix": {
+      "tn": 463,
+      "fp": 501,
+      "fn": 146,
+      "tp": 5547,
+      "matrix": [
+        [
+          463,
+          501
+        ],
+        [
+          146,
+          5547
+        ]
+      ]
+    },
+    "per_class": {
+      "non_cyberbullying (0)": {
+        "precision": 0.7603,
+        "recall": 0.4803,
+        "f1_score": 0.5887,
+        "support": 964
+      },
+      "cyberbullying_related (1)": {
+        "precision": 0.9172,
+        "recall": 0.9744,
+        "f1_score": 0.9449,
+        "support": 5693
+      }
+    }
+  },
+  "final_test_metrics": {
+    "accuracy": 0.8988,
+    "precision": 0.913,
+    "recall": 0.9745,
+    "f1_score": 0.9427,
+    "macro_precision": 0.8315,
+    "macro_recall": 0.7129,
+    "macro_f1": 0.7531,
+    "confusion_matrix": {
+      "tn": 435,
+      "fp": 529,
+      "fn": 145,
+      "tp": 5548,
+      "matrix": [
+        [
+          435,
+          529
+        ],
+        [
+          145,
+          5548
+        ]
+      ]
+    },
+    "per_class": {
+      "non_cyberbullying (0)": {
+        "precision": 0.75,
+        "recall": 0.4512,
+        "f1_score": 0.5635,
+        "support": 964
+      },
+      "cyberbullying_related (1)": {
+        "precision": 0.913,
+        "recall": 0.9745,
+        "f1_score": 0.9427,
+        "support": 5693
+      }
+    }
+  },
+  "stage2_subtype_metrics": {
+    "validation_accuracy": 0.9443,
+    "test_accuracy": 0.9494,
+    "categories": [
+      "age",
+      "ethnicity",
+      "gender",
+      "other_cyberbullying",
+      "religion"
+    ]
+  },
+  "dataset_split_counts": {
+    "train": 31064,
+    "val": 6657,
+    "test": 6657,
+    "total_cleaned": 44378
+  },
+  "all_experiments": [
+    {
+      "Experiment ID": "EXP-1A",
+      "Model": "Multinomial Naive Bayes",
+      "Vectorizer": "TF-IDF (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.8807,
+      "Val Precision": 0.8823,
+      "Val Recall": 0.993,
+      "Val F1-Score": 0.9344,
+      "Val Macro F1": 0.6402,
+      "Training Time (s)": 2.4
+    },
+    {
+      "Experiment ID": "EXP-1B",
+      "Model": "Logistic Regression",
+      "Vectorizer": "TF-IDF (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.8951,
+      "Val Precision": 0.9028,
+      "Val Recall": 0.9833,
+      "Val F1-Score": 0.9413,
+      "Val Macro F1": 0.7249,
+      "Training Time (s)": 2.54
+    },
+    {
+      "Experiment ID": "EXP-1C",
+      "Model": "Linear SVM",
+      "Vectorizer": "TF-IDF (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.9,
+      "Val Precision": 0.9224,
+      "Val Recall": 0.9642,
+      "Val F1-Score": 0.9428,
+      "Val Macro F1": 0.772,
+      "Training Time (s)": 2.55
+    },
+    {
+      "Experiment ID": "EXP-2A",
+      "Model": "Multinomial Naive Bayes",
+      "Vectorizer": "Bag of Words (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.8556,
+      "Val Precision": 0.9341,
+      "Val Recall": 0.8943,
+      "Val F1-Score": 0.9138,
+      "Val Macro F1": 0.7356,
+      "Training Time (s)": 2.36
+    },
+    {
+      "Experiment ID": "EXP-2B",
+      "Model": "Logistic Regression",
+      "Vectorizer": "Bag of Words (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.9004,
+      "Val Precision": 0.9231,
+      "Val Recall": 0.9638,
+      "Val F1-Score": 0.943,
+      "Val Macro F1": 0.7738,
+      "Training Time (s)": 3.07
+    },
+    {
+      "Experiment ID": "EXP-2C",
+      "Model": "Linear SVM",
+      "Vectorizer": "Bag of Words (1,2)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.8771,
+      "Val Precision": 0.9252,
+      "Val Recall": 0.9317,
+      "Val F1-Score": 0.9284,
+      "Val Macro F1": 0.7476,
+      "Training Time (s)": 3.35
+    },
+    {
+      "Experiment ID": "EXP-3",
+      "Model": "Logistic Regression",
+      "Vectorizer": "TF-IDF (Unigram only)",
+      "Preprocessing": "Conservative Baseline",
+      "Val Accuracy": 0.8976,
+      "Val Precision": 0.9083,
+      "Val Recall": 0.9791,
+      "Val F1-Score": 0.9423,
+      "Val Macro F1": 0.7414,
+      "Training Time (s)": 1.24
+    },
+    {
+      "Experiment ID": "EXP-4",
+      "Model": "Logistic Regression",
+      "Vectorizer": "TF-IDF (1,2) + Stopwords",
+      "Preprocessing": "Custom Stopword Removal",
+      "Val Accuracy": 0.8936,
+      "Val Precision": 0.9046,
+      "Val Recall": 0.9789,
+      "Val F1-Score": 0.9403,
+      "Val Macro F1": 0.7277,
+      "Training Time (s)": 3.54
+    },
+    {
+      "Experiment ID": "EXP-5",
+      "Model": "Logistic Regression",
+      "Vectorizer": "TF-IDF Char N-grams (3,5)",
+      "Preprocessing": "Character-level N-grams",
+      "Val Accuracy": 0.9028,
+      "Val Precision": 0.9172,
+      "Val Recall": 0.9744,
+      "Val F1-Score": 0.9449,
+      "Val Macro F1": 0.7668,
+      "Training Time (s)": 7.78
+    }
+  ]
+}
